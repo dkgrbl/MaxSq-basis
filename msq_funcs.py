@@ -1,3 +1,6 @@
+# author: Denis Kopylov
+
+
 import numpy as np
 import scipy.linalg as lg
 
