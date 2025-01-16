@@ -29,7 +29,7 @@ This is realized in the function build_MSq_basis_swap, where the parameter swap_
 Citing:
 ============
 
-If you are using the decomposition for broadband modes with maximal possible squeezing, please cite the `our paper <https://arxiv.org/abs/2403.05259>`_:
+If you are using the decomposition for broadband modes with maximal possible squeezing, please cite the <https://arxiv.org/abs/2403.05259>:
 
 Denis A. Kopylov, Torsten Meier, Polina R. Sharapova; Theory of Multimode Squeezed Light Generation in Lossy Media, arXiv:2403.05259 (2024)
 
