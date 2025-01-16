@@ -9,9 +9,8 @@ Features
 
 Run example:
 ============
-
-.. code-block:: console
-    $ python3 run_example.py
+To run example:
+```    $ python3 run_example.py ```
 
 
 Documentation:
