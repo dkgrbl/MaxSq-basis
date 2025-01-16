@@ -21,8 +21,7 @@ Documentation:
 * The function *build_MSq_basis* in **msq_funcs.py** returns the basis of maximal possible squeezing. The order of sorting corresponds to the increasing minimal quadrature variance.
 
 * The shortcoming of the function *build_MSq_basis* in **msq_funcs.py** is the order of vectors: the occupied but unsqueezed modes are last calculated. For large matrices, it is convenient and efficient to change the order of modes and find these unsqueezed modes earlier.
-This is realized in the function build_MSq_basis_swap, where the parameter swap_cutoff determines the criteria for the sorting change.
-
+This is realized in the function *build_MSq_basis_swap*, where the parameter *swap_cutoff* determines the boundary in eigenvalues for the sorting change.
 
 
 Citing:
