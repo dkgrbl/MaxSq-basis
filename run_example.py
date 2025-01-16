@@ -29,7 +29,7 @@ def run_example():
     # #### Compute first N_modes from MSq basis 
     # ####
 
-    N_modes = 200
+    N_modes = 50
     U_msq = msq_funcs.build_MSq_basis_swap(cov_matrix_initial, N=N_modes)
     covariance_matrix_msq = msq_funcs.transfrom_covariance_with_U(cov_matrix_initial, U_msq)
     
@@ -45,7 +45,6 @@ def run_example():
     plot_funcs.plot_mode_profile(U_msq, n=1)
     plot_funcs.plot_mode_profile(U_msq, n=2)
     plot_funcs.plot_mode_profile(U_msq, n=43)
-    # plot_funcs.plot_mode_profile(U_msq, n=42)
 
  
 if __name__ == '__main__':
